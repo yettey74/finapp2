@@ -1,0 +1,66 @@
+QMainWindow {
+    background-color: #001f3f;
+}
+
+QLabel {
+    color: #ffffff;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+QFrame {
+    background-color: #002f5f;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+}
+
+QListWidget {
+    background-color: #001f3f;
+    color: #ffffff;
+    border: 1px solid #00ff00;
+    font-family: 'Consolas', 'Courier New', monospace;
+}
+
+QListWidget::item {
+    border-bottom: 1px solid #00ff00;
+    padding: 2px;
+}
+
+QScrollBar:vertical {
+    border: 1px solid #00ff00;
+    background: #001f3f;
+    width: 15px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #00ff00;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: 1px solid #00ff00;
+    background: #001f3f;
+    height: 15px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QMenuBar {
+    background-color: #001f3f;
+    color: #ffffff;
+}
+
+QMenuBar::item:selected {
+    background-color: #00ff00;
+    color: #001f3f;
+}
+
+QMenu {
+    background-color: #001f3f;
+    color: #ffffff;
+}
+
+QMenu::item:selected {
+    background-color: #00ff00;
+    color: #001f3f;
+}
